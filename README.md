@@ -12,4 +12,5 @@ The goal of this repo is to revamp the 8379 codebase to provide a good foundatio
 ## Implementation
 - ROS-like framework of topics and services
 	- Services implemented as simple method calls, thread-safe topic class contains data to be passed around
+- Base Robot class containing high-level control flow (FSM)
 - Use of abstraction to enable seamless swapping of algorithms
